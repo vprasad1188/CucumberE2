@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4752" started-at="2022-12-14T06:45:17Z" finished-at="2022-12-14T06:45:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="4752" started-at="2022-12-14T06:45:17Z" finished-at="2022-12-14T06:45:22Z">
+      <class name="runners.DealRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.DealRunner@7494e528]" name="setUpClass" is-config="true" duration-ms="1417" started-at="2022-12-14T06:45:17Z" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2101b44a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="233" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new Deal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="44" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Deal Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="35" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a Deal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="37" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a Deal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Deals Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="41" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new Task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tasks Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="33" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Task Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tasks Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="27" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a Task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tasks Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.DealRunner@7494e528]" name="runScenario" duration-ms="43" started-at="2022-12-14T06:45:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-14T06:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a Task"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tasks Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.DealRunner@7494e528]" name="tearDownClass" is-config="true" duration-ms="2772" started-at="2022-12-14T06:45:19Z" finished-at="2022-12-14T06:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.DealRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
