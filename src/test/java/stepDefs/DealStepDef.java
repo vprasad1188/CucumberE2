@@ -16,6 +16,7 @@ public class DealStepDef {
 	@BeforeAll
 	public static void beforeAllScenarios(){
 		System.out.println("Once before all scenarios---------");
+		System.out.println("999");
 	}
 	
 	@AfterAll
